@@ -1,5 +1,5 @@
 # TongueSAM: An Universal Tongue Segmentation Model Based on SAM with Zero-Shot
-This is the public project of paper:"TongueSAM: An Universal Tongue Segmentation Model Based on SAM with Zero-Shot"
+This is the public project of paper:"TongueSAM: An Universal Tongue Segmentation Model Based on SAM with Zero-Shot", this paper can be get in:https://arxiv.org/abs/2308.06444.
 
 **Abstract**
 
