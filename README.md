@@ -27,6 +27,8 @@ The most crucial capability of TongueSAM lies in its Zero-Shot segmentation. To 
 
 Download the pre-trained weights:[TongueSAM](https://pan.baidu.com/s/1gaVQRipZUgg5WcZE6fDfyw?pwd=1209)
 
+Place the ```tonguesam.pth``` into the ```./pretrained_model/``` folder.
+
 Place the tongue image files that need to be segmented into the ```./data/test_in/``` folder.
 
 Run ```./python.py```
