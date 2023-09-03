@@ -9,16 +9,19 @@ is integrated into SAM to enable an end-to-end automated tongue segmentation met
 **Method**
 
 TongueSAM consists primarily of two components: SAM and the Prompt Generator. For a given tongue image, TongueSAM first utilizes the pretrained Image Encoder in SAM for encoding. Meanwhile, the Prompt Generator generates bounding box prompt based on the tongue image. Finally, the image embedding and prompts are jointly fed into the Mask Decoder to generate the segmentation result. The entire segmentation process is end-to-end and does not require any additional manual prompts. The following sections will introduce different components of TongueSAM.
+
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/cshan-github/TongueSAM/blob/main/1.jpg" alt="The model structure of TonguSAM." width="600" height="300">
 </div>
-<ul style="list-style-type: none; padding: 0; text-align: center;">
-    <li>
-       <img src="https://github.com/cshan-github/TongueSAM/blob/main/1.jpg" alt="The model structure of TonguSAM." width="600" height="300">
-    </li>
-</ul>
+
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/cshan-github/TongueSAM/blob/main/4.jpg" alt="The model structure of TonguSAM." width="600" height="300">
+</div>
+
 
 
 **Project Description**
 
-**The project used in the paper and pre-trained models are anticipated to be released in September 2023.**
+This project encompasses the model architecture of TongueSAM. Additionally, we have provided pretrained model on three tongue image datasets mentioned in the paper to facilitate zero-shot inference for users.
+
+
