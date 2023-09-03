@@ -15,7 +15,7 @@ TongueSAM consists primarily of two components: SAM and the Prompt Generator. Fo
 </div>
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://github.com/cshan-github/TongueSAM/blob/main/4.jpg" alt="The model structure of TonguSAM." width="600" height="300">
+    <img src="https://github.com/cshan-github/TongueSAM/blob/main/4.jpg" alt="The model structure of TonguSAM.">
 </div>
 
 
