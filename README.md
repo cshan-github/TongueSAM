@@ -9,6 +9,7 @@ is integrated into SAM to enable an end-to-end automated tongue segmentation met
 **Method**
 
 TongueSAM consists primarily of two components: SAM and the Prompt Generator. For a given tongue image, TongueSAM first utilizes the pretrained Image Encoder in SAM for encoding. Meanwhile, the Prompt Generator generates bounding box prompt based on the tongue image. Finally, the image embedding and prompts are jointly fed into the Mask Decoder to generate the segmentation result. The entire segmentation process is end-to-end and does not require any additional manual prompts. The following sections will introduce different components of TongueSAM.
+![The model structure of TonguSAM](https://github.com/cshan-github/TongueSAM/blob/main/1.jpg)
 
 
 **Project Description**
