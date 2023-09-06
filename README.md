@@ -18,6 +18,26 @@ TongueSAM consists primarily of two components: SAM and the Prompt Generator. Fo
 
 <p align="center">
     <img src="https://github.com/cshan-github/TongueSAM/blob/main/4.jpg" alt="The model structure of TonguSAM."width="1000" height="1000">
+    
+## DataSet
+
+In our experiments, we used 3 tongue image segmentation datasets, TongueSet1, TongueSet2(BioHit), TongueSet3. The TongueSet1 cannot be public at the moment due to privacy concerns. The [TongueSet2](https://github.com/BioHit/TongeImageDataset) has already been made public. We are now releasing the TongueSet3 [here](https://pan.baidu.com/s/1u4mHDQqS8Plt0TCFG6MEow?pwd=1209).
+
+TongueSet3 is a dataset we compiled by selecting 1000 tongue images from the [website](https://aistudio.baidu.com/datasetdetail/196398), and manually segmenting them using the [Labelme](https://github.com/wkentaro/labelme) tool. This dataset encompasses a wide range of tongue images from various sources, including those captured with mobile devices and non-standard angles. To our knowledge, this is the first publicly available tongue image segmentation dataset in a free environment. The original tongue images from the website vary in size. To ensure input consistency, we resized each tongue image to [400, 400] pixels. In the files we have made public, the "img" folder contains the original input tongue images, and the "gt" folder contains our manually annotated ground truth segmentations. **It's important to note that the images in the "gt" folder may appear completely black, but in reality, pixels with a value of [1, 1, 1] represent the tongue region, while pixels with a value of [0, 0, 0] represent the background. Please be mindful of this distinction.**
+
+<p align="center">
+    <img src="https://github.com/cshan-github/TongueSAM/blob/main/3.jpg" alt="The model structure of TonguSAM." width="600" height="300">
+
+If you want to use this dataset, please refer to the following format:
+
+```
+@article{cao2023tonguesam,
+  title={TongueSAM: An Universal Tongue Segmentation Model Based on SAM with Zero-Shot},
+  author={Cao, Shan and Ruan, Qunsheng and Wu, Qingfeng},
+  journal={arXiv preprint arXiv:2308.06444},
+  year={2023}
+}
+```
 
 ## Project Description
 
