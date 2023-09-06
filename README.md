@@ -25,6 +25,10 @@ TongueSAM consists primarily of two components: SAM and the Prompt Generator. Fo
 
 The most crucial capability of TongueSAM lies in its Zero-Shot segmentation. To facilitate user adoption, we employed the three datasets mentioned in the paper for fine-tuning TongueSAM and openly released the pre-trained model. Users can perform tongue image segmentation directly using TongueSAM with just a few straightforward steps.
 
+Download the pre-trained weights:[TongueSAM](https://pan.baidu.com/s/1gaVQRipZUgg5WcZE6fDfyw?pwd=1209)
+
+Put the ```tonguesam.pth``` into the ```./pretrained_model/``` folder.
+
 Place the tongue image files that need to be segmented into the ```./data/test_in/``` folder.
 
 Run ```./python.py```
