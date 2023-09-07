@@ -69,6 +69,10 @@ Run ```./train.py```,please refer to the following guidelines:[MedSAM](https://g
 
 The project is based on [YOLOX](https://github.com/bubbliiiing/yolox-pytorch) and [MedSAM](https://github.com/bowang-lab/MedSAM), and we appreciate their contributions.
 
+## License
+
+This project is licensed under the [MIT LICENSE](https://github.com/cshan-github/TongueSAM/blob/main/LICENSE.md).
+
 ## Future Work
 
 Although TongueSAM performs well in zero-shot and challenging environments, its model architecture is overly large, which can impact inference times. To address this issue, we will be releasing a more lightweight version in the near future, making TongueSAM smaller in size and faster in inference speed. Thanks for your interest in our study.
