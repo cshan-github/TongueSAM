@@ -64,7 +64,7 @@ This project is licensed under the [MIT LICENSE](https://github.com/cshan-github
 
 ## Reference
 
-If you want to use this dataset, please refer to the following format:
+If you want to reference this paper, please refer to the following format:
 
 ```
 @article{cao2023tonguesam,
