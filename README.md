@@ -28,17 +28,6 @@ TongueSet3 is a dataset we compiled by selecting 1000 tongue images from the [we
 <p align="center">
     <img src="https://github.com/cshan-github/TongueSAM/blob/main/3.jpg" alt="The model structure of TonguSAM." width="600" height="300">
 
-If you want to use this dataset, please refer to the following format:
-
-```
-@article{cao2023tonguesam,
-  title={TongueSAM: An Universal Tongue Segmentation Model Based on SAM with Zero-Shot},
-  author={Cao, Shan and Ruan, Qunsheng and Wu, Qingfeng},
-  journal={arXiv preprint arXiv:2308.06444},
-  year={2023}
-}
-```
-
 ## Project Description
 
 **1.Zero-Shot Segmentation**
@@ -72,6 +61,19 @@ The project is based on [YOLOX](https://github.com/bubbliiiing/yolox-pytorch) an
 ## License
 
 This project is licensed under the [MIT LICENSE](https://github.com/cshan-github/TongueSAM/blob/main/LICENSE.md).
+
+## Reference
+
+If you want to use this dataset, please refer to the following format:
+
+```
+@article{cao2023tonguesam,
+  title={TongueSAM: An Universal Tongue Segmentation Model Based on SAM with Zero-Shot},
+  author={Cao, Shan and Ruan, Qunsheng and Wu, Qingfeng},
+  journal={arXiv preprint arXiv:2308.06444},
+  year={2023}
+}
+```
 
 ## Future Work
 
