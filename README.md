@@ -74,7 +74,3 @@ If you want to reference this paper, please refer to the following format:
   year={2023}
 }
 ```
-
-## Future Work
-
-Although TongueSAM performs well in zero-shot and challenging environments, its model architecture is overly large, which can impact inference times. To address this issue, we will be releasing a more lightweight version in the near future, making TongueSAM smaller in size and faster in inference speed. Thanks for your interest in our study.
