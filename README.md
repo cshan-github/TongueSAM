@@ -21,7 +21,7 @@ TongueSAM consists primarily of two components: SAM and the Prompt Generator. Fo
     
 ## DataSet
 
-In our experiments, we used 3 tongue image segmentation datasets, TongueSet1, TongueSet2(BioHit), TongueSet3. The TongueSet1 cannot be public at the moment due to privacy concerns. The [TongueSet2](https://github.com/BioHit/TongeImageDataset) has already been made public. We are now releasing the TongueSet3 [here](https://pan.baidu.com/s/1u4mHDQqS8Plt0TCFG6MEow?pwd=1209).
+In our experiments, we used 3 tongue image segmentation datasets, TongueSet1, TongueSet2(BioHit), TongueSet3. The TongueSet1 cannot be public at the moment due to privacy concerns. The [TongueSet2](https://github.com/BioHit/TongeImageDataset) has already been made public. We are now releasing the TongueSet3 [here](https://pan.baidu.com/s/1TCcbwMYraSPzWeI60EME0A?pwd=ttm4).
 
 TongueSet3 is a dataset we compiled by selecting 1000 tongue images from the [website](https://aistudio.baidu.com/datasetdetail/196398), and manually segmenting them using the [Labelme](https://github.com/wkentaro/labelme) tool. This dataset encompasses a wide range of tongue images from various sources, including those captured with mobile devices and non-standard angles. To our knowledge, this is the first publicly available tongue image segmentation dataset in a free environment. The original tongue images from the website vary in size. To ensure input consistency, we resized each tongue image to [400, 400] pixels. In the files we have made public, the "img" folder contains the original input tongue images, and the "gt" folder contains our manually annotated ground truth segmentations. **It's important to note that the images in the "gt" folder may appear completely black, but in reality, pixels with a value of [1, 1, 1] represent the tongue region, while pixels with a value of [0, 0, 0] represent the background. Please be mindful of this distinction.**
 
@@ -34,7 +34,7 @@ TongueSet3 is a dataset we compiled by selecting 1000 tongue images from the [we
 
 The most crucial capability of TongueSAM lies in its Zero-Shot segmentation. To facilitate user adoption, we employed the three datasets mentioned in the paper for fine-tuning TongueSAM and openly released the pre-trained model. Users can perform tongue image segmentation directly using TongueSAM with just a few straightforward steps.
 
-Download the pre-trained weights:[TongueSAM](https://pan.baidu.com/s/1gaVQRipZUgg5WcZE6fDfyw?pwd=1209)
+Download the pre-trained weights:[TongueSAM](https://pan.baidu.com/s/1zG0jpYshlBs3lcdy4F37dQ?pwd=xtfg)
 
 Put the ```tonguesam.pth``` into the ```./pretrained_model/``` folder.
 
