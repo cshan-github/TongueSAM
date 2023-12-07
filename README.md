@@ -62,15 +62,4 @@ The project is based on [YOLOX](https://github.com/bubbliiiing/yolox-pytorch) an
 
 This project is licensed under the [MIT LICENSE](https://github.com/cshan-github/TongueSAM/blob/main/LICENSE.md).
 
-## Reference
-
-If you want to reference this paper, please refer to the following format:
-
-```
-@article{cao2023tonguesam,
-  title={TongueSAM: An Universal Tongue Segmentation Model Based on SAM with Zero-Shot},
-  author={Cao, Shan and Ruan, Qunsheng and Wu, Qingfeng},
-  journal={arXiv preprint arXiv:2308.06444},
-  year={2023}
-}
 ```
