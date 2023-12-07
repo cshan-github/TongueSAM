@@ -62,4 +62,3 @@ The project is based on [YOLOX](https://github.com/bubbliiiing/yolox-pytorch) an
 
 This project is licensed under the [MIT LICENSE](https://github.com/cshan-github/TongueSAM/blob/main/LICENSE.md).
 
-```
