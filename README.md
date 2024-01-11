@@ -52,6 +52,10 @@ To train the Prompt Generator based on YOLOX, please refer to the following guid
 
 Replace the pre-trained model in the ```./segment/yolox.pth``` file with your trained model.
 
+Run ```split.py``` twice, and the path of ```src_folder``` is your img_data and gt_data respectively.
+
+Run ```pre_tongue.py```, ```img_path``` and ```gt_path``` for your processed folder paths, respectively. For other parameter Settings, refer to [MedSAM](https://github.com/bowang-lab/MedSAM).
+
 Run ```./train.py```,please refer to the following guidelines:[MedSAM](https://github.com/bowang-lab/MedSAM)
 
 ## Acknowledge
